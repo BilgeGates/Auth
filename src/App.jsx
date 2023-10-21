@@ -1,5 +1,7 @@
+import LoginButton from "./components/LoginButton";
+
 function App() {
-  return <></>;
+  return <LoginButton></LoginButton>;
 }
 
 export default App;
