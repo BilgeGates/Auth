@@ -10,4 +10,43 @@
 body {
   background: #fdfbfb;
   font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.btn {
+  padding: 1rem 2rem;
+  font-weight: 600;
+  font-size: 1.05rem;
+  transition: 400ms all ease;
+  cursor: pointer;
+  margin-right: 2rem;
+  display: inline-block;
+}
+
+.primary-btn {
+  border: 1px solid rgb(47, 128, 235);
+  background: rgb(47, 128, 235);
+  color: #fff;
+}
+
+.primary-btn:hover {
+  color: rgb(47, 128, 235);
+  background: transparent;
+  border-color: rgb(47, 128, 235);
+}
+
+.secondary-btn {
+  background: rgb(253, 89, 89);
+  border-color: rgb(253, 89, 89);
+  color: #fff;
+  border: 1px solid rgb(253, 89, 89);
+}
+
+.secondary-btn:hover {
+  color: rgb(253, 89, 89);
+  background: transparent;
+  border-color: rgb(253, 89, 89);
 }

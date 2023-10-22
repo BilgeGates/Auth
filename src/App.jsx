@@ -1,7 +1,13 @@
 import LoginButton from "./components/LoginButton";
+import LogoutButton from "./components/LogoutButton";
 
 function App() {
-  return <LoginButton></LoginButton>;
+  return (
+    <>
+      <LoginButton />
+      <LogoutButton />;
+    </>
+  );
 }
 
 export default App;
